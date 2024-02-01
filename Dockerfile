@@ -5,7 +5,7 @@ LABEL maintainer="Wiktor <wiktor.vip@gmail.com>"
 
 
 # Set environment variables for configuration
-ENV MYSQL_HOST=svc-mysql \
+ENV MYSQL_HOST=svc-mysql-server \
     MYSQL_PORT=3306 \
     MYSQL_USER=root \
     MYSQL_PASSWORD=password \
