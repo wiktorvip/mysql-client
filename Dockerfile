@@ -12,7 +12,7 @@ ENV MYSQL_HOST=svc-mysql \
     MYSQL_DATABASE=mysql
 
 # Install mysql-client
-RUN apk add --no-cache mysql-client mariadb-connector-c
+RUN apk add --no-cache mysql-client mariadb-connector-c busybox-extras
 
 # # Set the entrypoint to run mysql-client
 # ENTRYPOINT ["mysql"]
